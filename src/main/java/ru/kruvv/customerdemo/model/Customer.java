@@ -30,10 +30,16 @@ public class Customer extends BaseEntity {
 	@Column(name = "budget")
 	private BigDecimal budget;
 
-	public Customer() {
-
-		// Empty constructor
-	}
+//	public Customer() {
+//	}
+//
+//	public Customer(Long id, String firstName, String lastName, String address, BigDecimal budget) {
+//		super(id);
+//		this.firstName = firstName;
+//		this.lastName = lastName;
+//		this.address = address;
+//		this.budget = budget;
+//	}
 
 	public String getFirstName() {
 		return firstName;
